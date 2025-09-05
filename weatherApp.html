@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="search">
+          <input id="inputText" type="text" placeholder="enter city" />
+          <button id="searchBtn"><img src="images/search.png" alt="" /></button>
+        </div>
+        <div class="info">
+          <img id="weatherIcon" src="images/clouds.png" alt="" />
+          <h1 id="temp">20°C</h1>
+          <h2 id="city">Punjab</h2>
+          <div class="speedHumidity">
+            <div class="humidity">
+              <img src="images/humidity.png" alt="" />
+              <p><span id="humidity">60</span></p>
+              <p>Humidity</p>
+            </div>
+            <div class="speed">
+              <img src="images/wind.png" alt="" />
+              <p><span id="speed">18</span></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
